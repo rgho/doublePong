@@ -55,7 +55,6 @@ canvas.height = H;
 // SET COLORS
 darkColor = "#A1000C"
 lightColor = "#FC717B"
-
 //darkColor = "#00665E"
 //lightColor = "#33CEC3"
 
