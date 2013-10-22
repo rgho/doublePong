@@ -53,8 +53,11 @@ canvas.width = W;
 canvas.height = H;
 
 // SET COLORS
-darkColor = "#00665E"
-lightColor = "#33CEC3"
+darkColor = "#A1000C"
+lightColor = "#FC717B"
+
+//darkColor = "#00665E"
+//lightColor = "#33CEC3"
 
 // Function to paint canvas
 function paintCanvas() {
@@ -113,6 +116,7 @@ startBtn = {
 		ctx.textAlign = "center";
 		ctx.textBaseline = "middle";
 		ctx.fillStlye = darkColor;
+		ctx.fillText("Fullscreen: Hit F11, then F5.", W/2, H/2 - 100);
 		ctx.fillText("Start", W/2, H/2 );
 	}
 };
